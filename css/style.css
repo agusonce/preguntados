@@ -1,0 +1,418 @@
+*{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+.nose{
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	z-index: 100;
+}
+.img_1{
+	background-image: url(../img/02.png);
+	background-size: cover;	
+	height: 50px;
+	width: 50px;
+}
+.img_2{
+	background-image: url(../img/04.png);
+	background-size: cover;	
+	height: 50px;
+	width: 50px;
+}
+.img_3{
+	background-image: url(../img/03.png);
+	background-size: cover;	
+}
+.img_4{
+	background-image: url(../img/01.png);
+	background-size: cover;	
+}
+
+.fondo{	background-image: url(../img/fondo.png);
+background-size: cover;}
+.fondo_1{	background-image: url(../img/fondo1.jpg);}
+.fondo_2{	background-image: url(../img/fondo2.jpg);}
+.fondo_3{	background-image: url(../img/fondo3.jpg);}
+.fondo_4{	background-image: url(../img/fondo4.jpg);}
+.fondo_5{	background-image: url(../img/fondo5.jpg);}
+.fondo_6{	background-image: url(../img/fondo6.jpg);}
+.fondo_7{	background-image: url(../img/fondo7.jpg);}
+.fondo_8{	background-image: url(../img/fondo8.jpg);}
+.fondo_9{	background-image: url(../img/fondo9.jpg);}
+.fondo_10{	background-image: url(../img/fondo10.jpg);}
+.fondo_hal{	background-image: url(../img/fondo_hal.jpg);}
+.fondo_hal1{	background-image: url(../img/hal-anime.jpg);}
+.cover{
+	background-size: cover;
+}
+/*
+.fondo{
+	position: fixed;
+	width: 100px;
+	height: 100px;
+}*/
+/*    ANCHO EN PORCENTAJE  ------- */
+.col12{	width: 100%;}
+.col6{	width: 50%;}
+.col4{	width: 33%;}
+.col5{	width: 41%;}
+.col3{	width: 24%;}
+.col8{	width: 66.6%;}
+.col9{	width: 74%;}
+.col10{	width: 90%;}
+.col11{	width: 99%;}
+
+
+.borSolid{	border:solid;}
+
+/*   HEIGHT (ALTO) ---------------*/
+.h400{	height: 400px;}
+.h300{	height: 300px;}
+.h250{	height: 250px;}
+.h200{	height: 200px;}
+.h150{	height: 150px;}
+.h140{	height: 140px;}
+.h100{	height: 100px;}
+.h50{	height: 50px;}
+.h70{	height: 70px;}
+.h40{	height: 40px;}
+.hauto{height: auto;}
+/*   HEIGHT (ALTO EN %) ---------------*/
+.h10vh{	height: 10vh;}
+.h20vh{	height: 20vh;}
+.h30vh{	height: 30vh;}
+.h40vh{	height: 40vh;}
+.h50vh{	height: 50vh;}
+.h60vh{	height: 60vh;}
+.h70vh{	height: 70vh;}
+.h80vh{	height: 80vh;}
+.h90vh{	height: 90vh;}
+.h100vh{height: 100vh;}
+/*  FONT DE LETRA  ------------- */
+.f12{font-size: 12px;}
+.f15{font-size: 15px;}
+.f20{font-size: 20px;}
+.f22{font-size: 22px;}
+.f25{font-size: 25px;}
+.f28{font-size: 28px;}
+.f30{font-size: 30px;}
+.f35{font-size: 35px;}
+.f50{font-size: 50px;}
+/*  COLOR DE FONDO --------------*/
+
+.fblack{	background: black;}
+.fblack50{	background: rgba(0,0,0,0.5);}
+.fred{	background-color:red;}
+.fblue{	background-color: blue;}
+.fblue1{	background-color:#00004d}
+.fblue2{	background-color: rgb(3, 251, 82 );}
+.fblue3{	background-color: rgb(65, 149, 211);}
+.fblue4{	background-color: rgb(149, 227, 152 );}
+
+/*    COLOR DE LETRA    ---------  */
+.cblanco{	color:white;}
+.crojo{	color:red;}
+.cblack{color:black;}
+.cverde{	color:green;}
+.c1{	color: #1A8CFF;}
+.cgris{	color: gray;}
+.cgray{	color: gray;}
+
+/*   BORDE SOLIDO ----------------*/
+/*   FLOAT LEFT    */
+.flef{	float:left;}
+.frig{	float:right;}
+
+/*  DISPLAY FLEX    */
+.fl{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+/*  MARGIN AUTO */
+.mauto{	margin: auto;}
+.hcenter{
+	display: flex;
+	align-items: center;
+}
+
+.flex-end{
+	display: flex;
+	justify-content: flex-end;
+}
+.flexstar{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.header{
+	background-color: rgba(0,0,0,0.7);
+	border:solid black;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+	width: 97%;
+}
+
+/*     PADING   --------------*/
+.p10{	padding: 10px;}
+.p5{	padding: 5px;}
+.ph5{ padding: 5px 0px;}
+.ph10{ padding: 10px 0px;}
+.pcol5{ padding: 0px 5px;}
+.pcol10{ padding: 0px 10px;}
+/*   MARGING    ---------------*/
+.m5{	margin: 5px;}
+.m10{	margin: 10px;}
+.mh10{ margin: 10px 0px;}
+.mcol5{ margin: 0px 5px;}
+.mcol10{ margin: 0px 10px;}
+
+
+.color1{ background-color: #008020 ;}
+.color3{ background-color: #00661a ;}
+.color2{ background-color: #009926 ;}/* CASI bLANCO*/
+
+.arte{ background-color: #FA87FF ;
+	border:solid #FA87FF;
+}
+.eco{ background-color: #48C64F ;
+	border:solid #48C64F;
+}
+.info{ background-color: #33A5FF ;
+	border:solid #33A5FF;
+}
+.soci{ background-color: #FF3636 ;
+	border:solid #FF3636;
+}
+/*-------------------------------*/
+.arte:hover{ color: #FA87FF;
+}
+.eco:hover{ color: #48C64F;
+}
+.info:hover{ color: #33A5FF;
+}
+.soci:hover{color: #FF3636;
+}
+
+.textcenter{
+	text-align: center;
+}
+.juscenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.esbet{
+	display: flex;
+	justify-content: space-between;
+}
+.li{	display: inline-block;}
+.fontcambria{	font-family: Exo;}
+.font1{	font-family: Audiowide;	}
+.font2{	font-family: Exo, Geneva, sans-serif;	}
+
+.b{	font-weight: bolder;}
+
+.textdnone{	text-decoration: none;}
+/* _______________________________________________________________________________________________________*/
+
+.main-content{
+	height: 99vh;
+	border:solid black;
+}
+nav ul li{	list-style: none;}
+nav ul li a{
+	text-decoration:none;
+	color: white;
+	display: block;
+	padding: 10px 7px;
+	border-bottom: solid rgba(10, 124, 182,.2);
+}
+nav ul li a:hover{	transition: 1s ease-out;background-color: #009900;}
+
+/* ______NAV RESPONSIVE ________*/
+
+/* NAV RESPONSIVE */
+
+.boton{
+	transition:background 1s ease-out;
+	height: 50px;
+	font-size: 35px;
+	width: 95%;
+	margin:10px;
+	border-radius: 5px;
+	border:none;
+	background-color: #009900;
+	color: white;
+	}
+
+	.boton:hover{
+		transition: .7s ease-out;
+		color: #009900;
+		background-color: white;
+		border-color:solid #009900;
+	}
+	.input{
+		transition: .7s ease-out;
+		height: 50px;
+		width: 95%;
+		font-size: 23px;
+		border-radius: 5px;
+		text-decoration: none;
+		border: solid #B1B1B1;
+		border-width: 1px;  
+		margin: 10px;
+		padding: 10px;
+		background-color: transparent;
+	}
+	.input:hover{
+		transition: .7s ease-out;
+		border-color:#009926;
+	}
+	.content-option{
+		width: 90%;
+	}
+
+	.option{
+		transition: .5s;
+		text-decoration: none;
+		padding: 10px;
+		margin: 5px;
+		font-size: 30px;
+		width: 90%;
+		display: inline-block;
+		border-radius: 30px;
+		color: black;
+	}
+	.option:hover{
+		background-color: white;
+	}
+	
+	.titulo{
+		font-size: 50px;
+	}
+
+	.fa{	
+		padding: 8px 24px;
+		border-radius: 50%;
+		background-color: white;
+		margin-right: 5px;
+	}
+	.ico{
+		width: 40px;
+		height: 40px;
+	}
+	
+	.preguntas{
+		width: 90%;
+		padding: 20px;
+		padding-right: 30px;
+		margin-top: 5px;
+		border:solid black;
+		border-radius: 15px;
+		background-color: rgba(0,0,0,0.7);
+	}
+	.preguntas div{
+		text-decoration: none;
+		color: white;
+		font-family: arial;
+		font-size: 1.5em; 
+	}
+	
+
+	.btn_respuestas{
+		transition: .7s;
+		text-decoration: none;
+		margin-top: 5px;
+		padding: 10px;
+		height: 40px;
+		font-size: 30px;
+		width: 95%;
+		border-radius: 30px;
+		border:solid black;
+		color: white;
+		background-image: url(../img/fondo_hal.jpg);
+		background-size: cover;
+		box-shadow: 600px 0px rgba(51,165,255,0.5) inset;
+	}
+	.btn_respuestas:hover{	
+		box-shadow: 600px 0px rgba(51,165,255,0.9) inset;
+		border-color:white;
+	}
+	.puntaje,.volver,.categoia,.pregunta{
+		position: fixed;
+		bottom:0px;
+		color: white;
+		border-radius: 2px;
+		border:solid white;
+		padding: 2px 10px;
+		background-color: red;
+		text-align: center;
+
+	}
+	.puntaje{left: 31%;width: 30%;}
+	.volver{width: 25%;}
+	.pregunta{right:0px;width: 29%}
+/*-----------------MEDIA QUERI--------------*/
+
+@media (max-width: 700px) {
+	.col6{	width: 90%;}
+	.col3{	width: 45%;}
+	.col10{	width: 95%;}
+	.col11{	width: 98%;}
+
+	.die700{display: none;}
+	.titulo{
+		text-align: center;
+		margin: auto;
+	}
+	.boton{	}
+
+	.boton:hover{}
+	.input{	}
+
+	.preguntas{	width: 86%;}
+	.header{
+		width: 93%;
+	}
+
+}
+@media (max-width: 600px) {
+	.preguntas{	width: 80%;}
+	.header{
+		width: 92%;
+	}
+
+}
+
+@media (max-height: 550px) {
+	
+	.main-content{
+		height: auto;
+	}
+	.h60vh{
+		height: 80vh;
+	}
+}
+@media (max-height: 450px) {
+	.h80vh{
+		height: auto;
+	}
+
+	
+}
+@media (max-height: 355px){
+	.h60vh{
+		height: auto;
+	}
+/*.fondo_hal{background-image: url(../img/fondo.png);}
+*/
+}
+@media (min-width: 700px) {
+
+	.viu700{display: none; transition: width 2s, height 4s;}
+}
